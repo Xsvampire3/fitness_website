@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+}
+
+.background-image {
+  background-image: url("https://media.istockphoto.com/id/1324103263/photo/woman-sitting-on-exercise-mat-laughs-with-unseen-person.jpg?s=612x612&w=0&k=20&c=V_CPVS5-MM5o6uwjFI4BHpXtYOvKdJjJZdSA4zXSvu8=");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner {
+  text-align: center;
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
